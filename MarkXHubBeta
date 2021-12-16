@@ -51,9 +51,9 @@ section1:addToggle("Auto Buy Legendarys Chest", nil, function(value)
 
 			workspace.ItemBoughtFromShop:InvokeServer(unpack(args))
 		end
-end
+	end
 
-	end)
+end)
 
 section1:addToggle("Auto Buy Epic Chest", nil, function(value)
 	_G.AutoEpic = (value)
@@ -69,8 +69,8 @@ section1:addToggle("Auto Buy Epic Chest", nil, function(value)
 
 			workspace.ItemBoughtFromShop:InvokeServer(unpack(args))
 		end
-end
-	end)
+	end
+end)
 
 section1:addToggle("Auto Buy Rare Chest", nil, function(value)
 	_G.AutoRare = (value)
@@ -83,9 +83,9 @@ section1:addToggle("Auto Buy Rare Chest", nil, function(value)
 			}
 
 			workspace.ItemBoughtFromShop:InvokeServer(unpack(args))
-end
 		end
-	end)
+	end
+end)
 
 section1:addToggle("Auto Buy Uncommon", nil, function(value)
 	_G.AutoUncommon = (value)
@@ -99,8 +99,8 @@ section1:addToggle("Auto Buy Uncommon", nil, function(value)
 
 			workspace.ItemBoughtFromShop:InvokeServer(unpack(args))
 		end
-		end
-	end)
+	end
+end)
 
 section1:addToggle("Auto Buy Common Chest", nil, function(value)
 	_G.AutoCommon = (value)
@@ -113,9 +113,9 @@ section1:addToggle("Auto Buy Common Chest", nil, function(value)
 			}
 
 			workspace.ItemBoughtFromShop:InvokeServer(unpack(args))
-end
 		end
-	end)
+	end
+end)
 local page = venyx:addPage("Buy Items", 5012544693)
 local section11 = page:addSection("Buy Items")
 section11:addButton("Common Chest (5 Gold)", function()
@@ -345,4 +345,4 @@ end)
 local page = venyx:addPage("Credit", 5012544693)
 local section1 = page:addSection("Credit")
 local section1 = page:addSection("FB : Imyour Makxy")
-	local section1 = page:addSection("DISCORD : ImMakxy#9306") then
+local section1 = page:addSection("DISCORD : ImMakxy#9306")
