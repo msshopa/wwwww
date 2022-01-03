@@ -27,8 +27,8 @@ _G.AutoFarm = (value)
 if _G.AutoFarm then
 while _G.AutoFarm==true do
 wait(0.0000000000000000000000000000000000001)
-tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.5, Enum.EasingStyle.Linear)
-			tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-37.346199, 305.927399, -15.5138016, 0.277866364, 0.404132068, -0.871474385, -7.4505806e-09, 0.907200217, 0.420699298, 0.960619748, -0.116898179, 0.252080411)}):Play()
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.1, Enum.EasingStyle.Linear)
+			tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-57.9351273, 288.454254, 65.057457, 0.804648638, 0.477458149, -0.35295105, 1.4901163e-08, 0.594442487, 0.804138184, 0.593751371, -0.647048712, 0.478317261)}):Play()
 end
 end
 end)
